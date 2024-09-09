@@ -162,7 +162,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.core-utils": {
-      "version": "2.0.1",
+      "version": "2.3.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -207,6 +207,16 @@
         "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.picoxr": {
+      "version": "file:G:/Unity Repos/Dolby Screen Casting/Packages/Pico SDK",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.xr.management": "4.0.0",
+        "com.unity.xr.interaction.toolkit": "2.0.0",
+        "com.unity.xr.core-utils": "2.3.0"
+      }
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
