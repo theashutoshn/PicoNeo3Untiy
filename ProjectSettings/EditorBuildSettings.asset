@@ -5,11 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/PICO Unity Demo Scene.unity
+    guid: 83ba5e1c66d5c534a83fc0d814ae678d
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/New Scene.unity
+    guid: 8469657ac0393c141a2c441ff1c9f37b
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: eb141c5ebf0126647bc7e0df3cc4e7b4,
+      type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 0ab2a775e34d9604482dc04e9218f887,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 93dc8731d9d68ec4db8ffd5db6b90832,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6051e1c50de7ce3499efe60aa88cbe14,
       type: 2}
